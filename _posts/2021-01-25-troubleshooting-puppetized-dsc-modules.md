@@ -335,7 +335,7 @@ output = ps_manager.execute(script_content)[:stdout]
 
 This will get you an interactive prompt inside the Puppet run:
 
-![Initial execution of pry](/iac/assets/2021-01-25-troubleshooting-puppetized-dsc-modules/initial-pry.png)
+![Initial execution of pry]({% link /assets/2021-01-25-troubleshooting-puppetized-dsc-modules/initial-pry.png %})
 
 You can call `ls` in that context to see what methods and variables are available:
 
